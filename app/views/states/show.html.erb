@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cities:</b>
+  <%= @state.cities %>
+</p>
+
+<p>
+  <b>Capital:</b>
+  <%= @state.capital %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%= @state.size %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @state.language %>
+</p>
+
+
+<%= link_to 'Edit', edit_state_path(@state) %> |
+<%= link_to 'Back', states_path %>
